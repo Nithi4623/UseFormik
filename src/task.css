@@ -1,0 +1,38 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+  
+       display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+       width: 100%;
+    padding: 30px;
+}
+.sub > form{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+     gap: 30px
+     ;
+    align-items: center;
+   padding: 30px;
+   
+}
+
+
+input.input-error, 
+select .input-error {
+    border-color: #fc8181;
+    
+}
+
+button:disabled{
+    opacity: 0.35;
+
+}
